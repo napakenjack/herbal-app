@@ -18,35 +18,35 @@ const ContactUs = () => {
                 <div className='inner_display'>
                 <div className='inner_text_container'>
                 <div className='top_text'>許可の種類</div>
-                <div className='bot_text'>店舗販売業許可証 許可番号 第富店0235号</div>
+                <div className='bot_text'>店舗販売業許可証 許可番号 第富店999号</div>
                 </div>
                 <div className='inner_text_container'>
                 <div className='top_text'>許可年月日</div>
-                <div className='bot_text'>令和3年8月18日</div>
+                <div className='bot_text'>令和99年99月99日</div>
                 </div>
                 <div className='inner_text_container'>
                 <div className='top_text'>有効期限</div>
-                <div className='bot_text'>令和9年8月17日</div>
+                <div className='bot_text'>令和99年99月99日</div>
                 </div>
                 <div className='inner_text_container'>
                 <div className='top_text'>店舗開設者</div>
-                <div className='bot_text'>株式会社 ハーバルアイ</div>
+                <div className='bot_text'>株式会社 9999</div>
                 </div>
                 <div className='inner_text_container'>
                 <div className='top_text'>店舗の名称</div>
-                <div className='bot_text'>漢方生薬研究所 富山店</div>
+                <div className='bot_text'>とってもいい病院 富士山店</div>
                 </div>
                 <div className='inner_text_container'>
                 <div className='top_text'>店舗の所在地</div>
-                <div className='bot_text'>富山県富山市境野新124番1</div>
+                <div className='bot_text'>富士通県富山市境野新124番1</div>
                 </div>
                 <div className='inner_text_container'>
                 <div className='top_text'>所轄自治体</div>
-                <div className='bot_text'>富山市保健所</div>
+                <div className='bot_text'>何処か</div>
                 </div>
                 <div className='inner_text_container'>
                 <div className='top_text'>取り扱う一般用医薬品の区分</div>
-                <div className='bot_text'>第二類医薬品、指定第二類医薬品、第三類医薬品</div>
+                <div className='bot_text'>医薬品、二類医薬品、第三類医薬品</div>
                 </div>
                 <div className='inner_text_container'>
                 <div className='top_text'>この店舗に勤務する者の名札等による区分に関する説明</div>
@@ -67,8 +67,8 @@ const ContactUs = () => {
                     <div className='display_content'>
                         <img src="https://www.seekpng.com/png/full/356-3562377_personal-user.png" />
                     <div className='item_cont'>                        
-                        <div className='name_font'>店舗管理者(登録販売者):安部 剛</div> 
-                    <br/><div className='cert_font'>販売従事登録番号:16-15-10150号</div> 
+                        <div className='name_font'>店舗管理者(登録販売者):名前</div> 
+                    <br/><div className='cert_font'>販売従事登録番号:9999号</div> 
                     </div>
                     </div>
                     <div className='item_cont back_color'>                        
@@ -77,12 +77,12 @@ const ContactUs = () => {
                     </div>
                     <div className='item_cont back_color'>                        
                         専門家が相談応需を受ける連絡先電話番号
-                        <br/>     0120-659-435
+                        <br/>     07-44150--101
                         <br/>     相談応需可能時間:月〜日 AM 10:00～PM 5:00 （不定休）
                     </div>
                     <div className='item_cont back_color'>                        
                         緊急連絡先
-                        <br/>     0120-659-435
+                        <br/>     07-44150--101
                         <br/>     相談応需可能時間:月〜日 AM 10:00～PM 5:00 （不定休）
                     </div>
 

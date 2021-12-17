@@ -46,7 +46,7 @@ const AboutPage = () => {
                             <div className='tel_info'>
                                <div className='work_time'>受付時間 10:00~17:00（平日のみ）</div> 
 
-                                <div className='tel_number'>0120-659-435</div>
+                                <div className='tel_number'>0567-345-12</div>
                             </div>
                         </div>
 
@@ -84,14 +84,14 @@ const AboutPage = () => {
                     </div>
         
                     <div className='content_text'>
-                    株式会社ハーバルアイ
-                    <br/>〒810-0001
-                    <br/>福岡県福岡市中央区天神5-7-3 福岡天神北ビル6階
+                    株式会社 社会式株
+                    <br/>〒810-0099
+                    <br/>福岡県福岡市中央区天神
                     <br/>TEL:0120-659-435 FAX:0120-892-489
-                    <br/>代表者:橋口 遼
-                    <br/>店舗運営責任者:早川 桃子
-                    <br/>店舗セキュリティ責任者:早川 桃子
-                    <br/>店舗連絡先:herbal-i_3@shop.rakuten.co.jp
+                    <br/>代表者:誰か
+                    <br/>店舗運営責任者:Master
+                    <br/>店舗セキュリティ責任者:Master Master
+                    <br/>店舗連絡先:Master@shop…
                     </div>
                 </div>
             </div>
