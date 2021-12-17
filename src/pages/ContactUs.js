@@ -13,7 +13,7 @@ const ContactUs = () => {
         <div className='contact_display_flex'>
             <div className='content'>
                 <div className='small_container_title'>
-                【漢方生薬研究所（富山店）】
+                【なんか店】
                 </div>
                 <div className='inner_display'>
                 <div className='inner_text_container'>
