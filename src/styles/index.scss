@@ -1,0 +1,32 @@
+@import './variables.scss';
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    font-family: $KosugiMaru;
+    width: 100%;
+    color: $lightgreen;
+    max-width: 1920px;
+}
+
+#root{
+    height: 100%;
+}
+
+.anim{
+    animation: translate .5s cubic-bezier(0.09, 0.05, 0.43, 0.95);
+}
+
+@keyframes translate{
+    0%{
+        transform: translateY(40px);
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+        transform: none;
+    }
+}

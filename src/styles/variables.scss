@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap');
+
+$KosugiMaru: 'Kosugi Maru', sans-serif;
+
+$YuMincho: 'YuMincho', 'Yu Mincho', serif;
+
+//colors
+$lightgreen: rgb(87, 173, 94);
+$light: #fff;
+$lightybutton: rgb(255, 255, 255);
+$dark: rgb(101, 167, 81);
+$primary: rgb(167, 251, 140);
+$lightbutton: #22e433;
+$bg: rgb(244, 244, 255);
+
+//reg button color
+$whity: rgb(10, 88, 0);
+$greenie: rgb(31, 153, 0);
+$gringo: rgb(30, 218, 30);
+$whitetext: #fff;
+$logintext: rgb(5, 127, 16);
+$defaulttext: rgb(26, 145, 36);
+
+
+//spacing
+
+$spacing-md: 16px;
+$spacing-lg: 32px;
+
+//border radius
+$borderRadius: 12px;
+
+//
+$headerHeight: 100px;
+
+@mixin breakpoint($point) {
+    @if $point == md {
+        // 768px
+        @media (min-width: 55em) {
+            @content;
+        }
+    }
+}

@@ -1,0 +1,129 @@
+.page_title{
+
+}
+
+.contact_display_flex{
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    flex-wrap: wrap;
+    padding: 19px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 9px -2px #dadada;
+}
+
+.content{
+
+}
+
+.cont_title{
+
+}
+
+.inner_text_container{
+    padding: 15px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.inner_display{
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 15px;
+    justify-content: space-around;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 19px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 9px -2px #dadada;
+}
+
+.top_text{
+    margin-bottom: 10px;
+    background: #e6e6fa63;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.bot_text{
+    
+}
+
+.hr_color{
+    border-color: #ffebcd54;
+}
+
+.name_font{
+    font-size: 22px;
+}
+
+.cert_font{
+    font-size: 20px;
+}
+
+.second_content_container{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    margin-top: 40px;
+    gap: 80px;
+}
+
+.display_content{
+    display: flex;
+    align-items: center;
+}
+
+.address_cont{
+
+}
+
+.display_content img{
+    border-radius: 500px;
+    border: 1px solid;
+    width: 200px;
+    background: linear-gradient(45deg, #009c08, #0aff00);
+    margin: 20px;
+    box-shadow: 0px 0px 16px -5px #00ff02;
+}
+
+.item_cont{
+    margin: 15px 0px;
+    line-height: 22px;
+
+}
+
+.back_color{
+    background: #e7ffec;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 11px -5px black;
+}
+
+@media (max-width: 868px){
+    .contact_display_flex{
+        width: 100%;
+    }
+    .content{
+        width: 100%;
+    }
+    .inner_display{
+        grid-template-columns: repeat(1, 1fr);
+        padding: 0px;
+    }
+    .second_content_container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .display_content{
+        flex-direction: column;
+    }    
+}
+
+@media (max-width: 1469px){
+    .second_content_container{
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+    }
+}

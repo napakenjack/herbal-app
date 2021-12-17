@@ -1,0 +1,41 @@
+.buttons{
+    display: flex;
+    flex-direction: column;
+    height: 257px;
+    width: 169px;
+}
+
+.btn{
+    padding: 10px;
+    font-size: 19px;
+    flex-grow: 1;
+    box-shadow: 1px 1px 6px -1px #bcbcbc;
+    margin: 7px;
+    background: white;
+    color: #57ad5e;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+    transition: all 0.5s ease;
+}
+
+@media (max-width: 869px){
+    .buttons{
+        display: flex;
+        flex-direction: row;
+        height: 100% !important;
+        width: 100% !important;
+        flex-wrap: wrap;
+    }
+    .btn{
+        padding: 5px !important;
+        margin: 5px !important;
+        width: 30% !important;
+    }
+}
+
+.buttons button:hover{
+    background-color: rgb(87 173 94);
+    color: #ffffff;
+}
+
