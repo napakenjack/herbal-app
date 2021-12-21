@@ -2,11 +2,14 @@
 
 .header {
     background: $dark;
-    width: 100%;
-    height: $headerHeight;
+    width: 10%;
+    height: $navbarHeight;
+    position: $fixedPosition;
+    box-shadow: 0px 0px 11px 0px #727272;
     padding: 0 1.5rem;
+    z-index: 2;
     @include breakpoint(md) {
-        padding: 0 3rem;
+        padding: 0 0rem;
     }
     transition: 0.3s ease all;
 
@@ -18,6 +21,7 @@
         height: 100%;
         display: flex;
         align-items: center;
+        flex-direction: column;
         justify-content: space-between;
         position: relative;
         z-index: 100;
@@ -40,7 +44,7 @@
             position: fixed;
             display: flex;
             flex-direction: column;
-            justify-content: center;
+            justify-content: space-between;
             align-items: center;
             text-align: center;
             background: rgba($dark, 0.9);
@@ -50,7 +54,7 @@
 
             @include breakpoint(md) {
                 transform: none;
-                flex-direction: row;
+                flex-direction: column;
                 background: transparent;
                 width: auto;
                 height: 100%;
@@ -60,20 +64,19 @@
                 list-style: none;
                 padding: 0;
                 display: flex;
+                margin-top: 30px;
+                gap: 40px;
                 flex-direction: column;
                 margin-bottom: $spacing-lg;
                 @include breakpoint(md) {
-                    flex-direction: row;
                     align-items: center;
                     margin-bottom: 0;
-                    margin-right: calc(0.5rem + #{$spacing-md});
                 }
                 li {
                     &:not(:last-child) {
                         margin-bottom: $spacing-lg;
                         @include breakpoint(md) {
                             margin-bottom: 0;
-                            margin-right: $spacing-md;
                         }
                     }
                     a {
@@ -85,11 +88,12 @@
 
                         &:hover {
                             background: rgba($lightybutton, 1);
-                            color: green;
+                            color: rgb(245, 81, 20);
                         }
                         &:active {
-                            border-radius: calc(#{$borderRadius} + 6px);
-                            background: linear-gradient(rgba($light, 0.1), rgba($light, 0.2));
+                            border-radius: calc(#{$borderRadius} + 2px);
+                            background: linear-gradient(rgba($active_btn, 0.5), rgba($active_btn, 0.2));
+                            color:rgba($active_color, 1);
                         }
                     }
                 }
@@ -101,20 +105,37 @@
                 border-radius: $borderRadius;
                 font-size: 1rem;
                 font-family: inherit;
-                background: $primary;
-                color: $defaulttext;
+                color: $light;
                 border: 1px solid transparent;
                 transition: 0.3s ease all;
+                margin-bottom: 30px;
+                @include keyframes(gradient){
+                    0%{
+                        background-position: 5% 50%;
+                    }
+                   50%{
+                        background-position: 900% 50%;
+                    }
+                   100%{
+                        background-position: 5% 50%;
+                   }
+                }
+                @include animate(gradient, 15s, ease-in-out, infinite);
+                background: linear-gradient(271deg, #ee7752, rgb(231, 60, 126), rgb(35, 166, 213), rgb(35, 213, 171));
+	            background-size: 500% 500%;
+                box-shadow: 0px 0px 10px -2px #202020;
 
                 &:hover {
                     border-color: $whity;
                     background: linear-gradient(rgba($greenie, 0.8), rgba($gringo, 0.8));
                     color: $whitetext;
+                    
                 }
                 &:active {
                     border-color: $primary;
-                    background: linear-gradient(rgba($primary, 1), rgba($primary, 1));
-                    color: $logintext;
+                    background: linear-gradient(271deg, rgba($good_col_1, 1), rgba($good_col_2, 1), rgba($good_col_3, 1), rgba($good_col_4, 1));
+                    background-size: 200% 200%;
+                    color: $light;
                 }
             }
 

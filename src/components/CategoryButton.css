@@ -12,11 +12,11 @@
     box-shadow: 1px 1px 6px -1px #bcbcbc;
     margin: 7px;
     background: white;
-    color: #57ad5e;
+    color: #000000;
     font-weight: bold;
     border-radius: 10px;
     border: none;
-    transition: all 0.5s ease;
+    transition: all 0.2s ease;
 }
 
 @media (max-width: 869px){
@@ -35,7 +35,13 @@
 }
 
 .buttons button:hover{
-    background-color: rgb(87 173 94);
+    background-color: rgb(245 81 20);
     color: #ffffff;
 }
+
+.buttons button:active{
+    background-color: rgb(245 81 20);
+    color: #ffffff;
+}
+
 

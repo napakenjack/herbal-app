@@ -6,21 +6,27 @@ $YuMincho: 'YuMincho', 'Yu Mincho', serif;
 
 //colors
 $lightgreen: rgb(87, 173, 94);
+$black: #000000;
 $light: #fff;
+$active_btn: #f5fff1e8;
+$active_color: rgb(255, 255, 255);
 $lightybutton: rgb(255, 255, 255);
-$dark: rgb(101, 167, 81);
+$dark: rgb(245, 81, 20);
 $primary: rgb(167, 251, 140);
 $lightbutton: #22e433;
 $bg: rgb(244, 244, 255);
+$good_col_1: rgb(238, 119, 82);
+$good_col_2: rgb(231, 60, 126);
+$good_col_3: rgb(35, 166, 213);
+$good_col_4: rgb(35, 213, 171);
 
 //reg button color
-$whity: rgb(10, 88, 0);
-$greenie: rgb(31, 153, 0);
-$gringo: rgb(30, 218, 30);
+$whity: rgb(255, 255, 255);
+$greenie: rgb(29, 247, 255);
+$gringo: rgb(0, 145, 202);
 $whitetext: #fff;
 $logintext: rgb(5, 127, 16);
 $defaulttext: rgb(26, 145, 36);
-
 
 //spacing
 
@@ -32,6 +38,8 @@ $borderRadius: 12px;
 
 //
 $headerHeight: 100px;
+$navbarHeight: 100%;
+$fixedPosition: fixed;
 
 @mixin breakpoint($point) {
     @if $point == md {
@@ -39,5 +47,15 @@ $headerHeight: 100px;
         @media (min-width: 55em) {
             @content;
         }
+    }
+}
+
+@mixin animate($animation,$duration,$method,$times){
+    animation: $animation $duration $method $times;
+}
+
+@mixin keyframes($name){
+    @keyframes #{$name}{
+        @content;
     }
 }

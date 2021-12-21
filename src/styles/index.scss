@@ -8,12 +8,14 @@
 body{
     font-family: $KosugiMaru;
     width: 100%;
-    color: $lightgreen;
+    color: $black;
     max-width: 1920px;
 }
 
 #root{
     height: 100%;
+    display: flex;
+    flex-direction: row;
 }
 
 .anim{
@@ -29,4 +31,16 @@ body{
         opacity: 1;
         transform: none;
     }
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
