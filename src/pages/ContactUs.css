@@ -5,7 +5,7 @@
 .contact_display_flex{
     display: flex;
     justify-content: space-around;
-    width: 70%;
+    width: 100%;
     flex-wrap: wrap;
     padding: 19px;
     background: white;
