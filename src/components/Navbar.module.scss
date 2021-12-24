@@ -1,5 +1,18 @@
 @import '../styles/variables.scss';
 
+.container{
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+}
+.wrapper{
+    display: flex;
+}
+
+.right_cont{
+    display: flex;
+}
+
 .header {
     background: $dark;
     width: 10%;
