@@ -1,5 +1,6 @@
 import React from 'react'
 import ProductList from '../components/ProductList';
+import SecondArticle from '../components/SecondArticle/SecondArticle';
 import MainSwiper from '../components/Swiper';
 import ThirdArticle from '../components/ThirdArticle';
 
@@ -12,9 +13,9 @@ const MainPage = () => {
            <MainSwiper/>
            </div>
         <div className={classes.product_list}>
-            <ProductList/>
+            <SecondArticle/>
         </div>
-        <div className={classes.products_for}>
+        <div className={classes.third_article}>
             <ThirdArticle/>
         </div>
         </>

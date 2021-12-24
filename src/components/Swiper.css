@@ -5,7 +5,7 @@
   }
   .product_img{
     width: 100vw !important;
-    height: 25vw !important;
+    height: 15vw !important;
   }
   
   .title{
@@ -38,7 +38,7 @@
     padding: 10px;
     height: auto;
     width: auto;
-    bottom: 11vw;
+    bottom: 1vw;
     right: 30vw;
     border-radius: 10px;
     flex-direction: column;

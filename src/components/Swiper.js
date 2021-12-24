@@ -1,6 +1,3 @@
-
-import React, { useRef, useState } from "react";
-import { useFetch } from '../hooks/useFetch'
 import { sliderItems } from "../data";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react/swiper-react.js";
@@ -23,7 +20,7 @@ import SwiperCore, {
 SwiperCore.use([Navigation]);
 
 
-export default function App() {  
+export default function TopSwiper() {  
 
   const slides = Array.from({ lenght: 4}).map(
     (el,index) => `Slide ${index + 1}`
