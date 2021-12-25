@@ -18,7 +18,7 @@
     width: 10%;
     height: $navbarHeight;
     position: $fixedPosition;
-    box-shadow: 0px 0px 10px 3px #a1a1a1;
+    box-shadow: 0px 0px 5px 0px #000000;
     padding: 0 1.5rem;
     z-index: 2;
     @include breakpoint(md) {
