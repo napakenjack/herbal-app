@@ -48,6 +48,12 @@ $fixedPosition: fixed;
             @content;
         }
     }
+    @if $point == mx {
+        // 768px
+        @media (max-width: 100em) {
+            @content;
+        }
+    }
 }
 
 @mixin animate($animation,$duration,$method,$times){
