@@ -1,8 +1,9 @@
 import{BiMenuAltRight} from 'react-icons/bi'
 import{AiOutlineClose} from 'react-icons/ai'
+import HomeIcon from '@mui/icons-material/Home';
 import classes from './Navbar.module.scss'
 import { useState, useEffect } from 'react'
-import { Link, useNavigate } from 'react-router-dom'
+import { NavLink, useNavigate } from 'react-router-dom'
 
 const Navbar = () => {
     const history = useNavigate();
@@ -45,16 +46,16 @@ const Navbar = () => {
             <nav className={`${classes.header__content__nav} ${menuOpen ? classes.isMenu : ""}`}>
                 <ul>    
                             <li>
-                                <Link to="/">ホーム</Link>
+                                <NavLink to="/">ホーム</NavLink>
                             </li>
                             <li>
-                                <Link to="/products">商品</Link>
+                                <NavLink to="/products">商品</NavLink>
                             </li>
                             <li>
-                                <Link to="/about">お買い物ガイド</Link>
+                                <NavLink to="/about">お買い物ガイド</NavLink>
                             </li>
                             <li>
-                                <Link to="/contacts">会社情報</Link>
+                                <NavLink to="/contacts">会社情報</NavLink>
                             </li>
                 </ul>
                 <button>ログイン／登録</button>

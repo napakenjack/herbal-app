@@ -102,11 +102,13 @@
                         &:hover {
                             background: rgba($lightybutton, 1);
                             color: rgb(245, 81, 20);
+                            transition: all .5s ease;
                         }
                         &:active {
                             border-radius: calc(#{$borderRadius} + 2px);
-                            background: linear-gradient(rgba($active_btn, 0.5), rgba($active_btn, 0.2));
-                            color:rgba($active_color, 1);
+                            background: white;
+                            box-shadow: 0px 0px 10px 0px rgba($active_color, 1);
+                            transition: all .5s ease;
                         }
                     }
                 }
